@@ -12,6 +12,7 @@ import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -23,6 +24,7 @@ public class emailAdapter extends RecyclerView.Adapter <emailAdapter.cartViewHol
     Context context;
     boolean hasDraft;
     private OnItemClickListener mListerner;
+    private Button akoLangTohEnebe;
 
     public interface OnItemClickListener{
         void onItemClick(int position);
