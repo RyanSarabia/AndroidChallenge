@@ -25,6 +25,7 @@ public class emailAdapter extends RecyclerView.Adapter <emailAdapter.cartViewHol
     boolean hasDraft;
     private OnItemClickListener mListerner;
     private Button akoLangTohEnebe;
+    private Button etoMarkMayNakitaKaBa;
 
     public interface OnItemClickListener{
         void onItemClick(int position);
